@@ -48,4 +48,3 @@ abab;1;1;0.003
 Este projeto foi feito como trabalho acadêmico para simular autômatos finitos com base em arquivos de entrada, sem uso de interface gráfica. A ideia é facilitar a validação automática de cadeias por autômatos definidos externamente.
 
 ---
-Autor: [Seu Nome Aqui]
