@@ -25,7 +25,7 @@ O programa faz o seguinte:
 
 ---
 
-##  Exemplo de entrada (`testes.in`)
+##  Exemplo de entrada 
 a;1
 ab;0
 abab;0
@@ -38,7 +38,7 @@ Cada linha representa uma cadeia e o que se espera dela:
 
 ---
 
-##  Exemplo de autômato (`automato.json`)
+##  Exemplo de autômato 
 
 ```json
 {
