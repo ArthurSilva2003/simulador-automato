@@ -1,10 +1,10 @@
 # Simulador de Autômato Finito
 
-Este projeto é um simulador de autômato finito desenvolvido para a disciplina de Teoria da Computação ou Linguagens Formais. Ele lê a definição de um autômato a partir de um arquivo `.json` e testa diversas cadeias fornecidas num arquivo `.in`, informando se foram aceitas ou rejeitadas.
+Este projeto é um simulador de autômato finito. Lê a definição de um autômato a partir de um arquivo `.json` e testa diversas cadeias fornecidas num arquivo `.in`, informando se foram aceitas ou rejeitadas.
 
 ---
 
-## 📂 Estrutura dos Arquivos
+##  Estrutura dos Arquivos
 
 - `automato.json`: define o autômato (estado inicial, estados finais e transições).
 - `testes.in`: lista as cadeias a serem testadas junto com o resultado esperado.
@@ -12,7 +12,7 @@ Este projeto é um simulador de autômato finito desenvolvido para a disciplina 
 
 ---
 
-## ▶️ Como funciona
+##  Sua funcionalidade
 
 O programa faz o seguinte:
 
@@ -25,7 +25,7 @@ O programa faz o seguinte:
 
 ---
 
-## 📄 Exemplo de entrada (`testes.in`)
+##  Exemplo de entrada (`testes.in`)
 a;1
 ab;0
 abab;0
@@ -38,7 +38,7 @@ Cada linha representa uma cadeia e o que se espera dela:
 
 ---
 
-## 🔧 Exemplo de autômato (`automato.json`)
+##  Exemplo de autômato (`automato.json`)
 
 ```json
 {
