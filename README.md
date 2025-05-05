@@ -26,4 +26,27 @@ O programa faz o seguinte:
 ---
 
 ## 📄 Exemplo de entrada (`testes.in`)
+a;1
+ab;0
+abab;0
+baba;0
+
+
+Cada linha representa uma cadeia e o que se espera dela:
+- `1` = aceita
+- `0` = rejeitada
+
+---
+
+## 🔧 Exemplo de autômato (`automato.json`)
+
+```json
+{
+  "initial": 0,
+  "final": [1],
+  "transitions": [
+    { "from": 0, "read": "a", "to": 1 },
+    { "from": 1, "read": "b", "to": 0 }
+  ]
+}
 
