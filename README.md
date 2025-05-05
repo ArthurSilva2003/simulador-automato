@@ -19,8 +19,8 @@ O programa faz o seguinte:
 1. Lê o estado inicial, estados finais e as transições.
 2. Para cada cadeia, simula a leitura símbolo por símbolo.
 3. No final, verifica se parou em um estado final:
-   - Se sim → cadeia **aceita**.
-   - Se não → cadeia **rejeitada**.
+    Se sim → cadeia **aceita**.
+    Se não → cadeia **rejeitada**.
 4. Compara com o resultado esperado e escreve no `saida.out`.
 
 ---
